@@ -1,0 +1,18 @@
+"/Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/WeakContainer.swift":
+  swift-dependencies: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/WeakContainer.swiftdeps"
+  const-values: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/WeakContainer.swiftconstvalues"
+  object: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/WeakContainer.o"
+  dependencies: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/WeakContainer.d"
+  diagnostics: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/WeakContainer.dia"
+"/Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/StorageFactory.swift":
+  swift-dependencies: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/StorageFactory.swiftdeps"
+  dependencies: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/StorageFactory.d"
+  object: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/StorageFactory.o"
+  diagnostics: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/StorageFactory.dia"
+  const-values: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/StorageFactory.swiftconstvalues"
+"/Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift":
+  dependencies: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/Storage.d"
+  const-values: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/Storage.swiftconstvalues"
+  diagnostics: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/Storage.dia"
+  swift-dependencies: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/Storage.swiftdeps"
+  object: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/Storage.o"

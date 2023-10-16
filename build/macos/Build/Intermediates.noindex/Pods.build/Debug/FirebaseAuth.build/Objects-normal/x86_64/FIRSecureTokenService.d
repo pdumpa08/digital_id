@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseAuth.build/module.modulemap \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/SystemService/FIRSecureTokenService.m \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/SystemService/FIRSecureTokenService.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuth.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthAPNSTokenType.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthErrors.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuthSerialTaskQueue.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuthTokenResult_Internal.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthTokenResult.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuth_Internal.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Interop/FIRAuthInterop.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRLogger.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCore.build/module.modulemap \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthBackend.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCRequest.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRPCResponse.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/FIRAuthRequestConfiguration.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAppCheck/Interop/FIRAppCheckInterop.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/FIRSecureTokenRequest.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Backend/RPC/FIRSecureTokenResponse.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FirebaseCoreInternal.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRAppInternal.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponent.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponentContainer.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRComponentType.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRDependency.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRHeartbeatLogger.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIRLibrary.h \
+  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseCore/Extension/FIROptionsInternal.h

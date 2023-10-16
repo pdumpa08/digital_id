@@ -1,0 +1,18 @@
+"/Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsPayload.swift":
+  object: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/HeartbeatsPayload.o"
+  swift-dependencies: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/HeartbeatsPayload.swiftdeps"
+  const-values: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/HeartbeatsPayload.swiftconstvalues"
+  dependencies: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/HeartbeatsPayload.d"
+  diagnostics: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/HeartbeatsPayload.dia"
+"/Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/RingBuffer.swift":
+  object: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/RingBuffer.o"
+  swift-dependencies: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/RingBuffer.swiftdeps"
+  diagnostics: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/RingBuffer.dia"
+  const-values: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/RingBuffer.swiftconstvalues"
+  dependencies: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/RingBuffer.d"
+"/Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatStorage.swift":
+  object: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/HeartbeatStorage.o"
+  dependencies: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/HeartbeatStorage.d"
+  const-values: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/HeartbeatStorage.swiftconstvalues"
+  swift-dependencies: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/HeartbeatStorage.swiftdeps"
+  diagnostics: "/Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCoreInternal.build/Objects-normal/x86_64/HeartbeatStorage.dia"
