@@ -41,6 +41,7 @@ dependencies:
   google_sign_in: ^6.1.5
   firebase_auth: ^4.10.1
   provider: ^6.0.5
+  syncfusion_flutter_barcodes: ^23.1.41
 
 dev_dependencies:
   flutter_test:
