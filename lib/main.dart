@@ -160,6 +160,21 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                       ],
                     ),
+                  if (dropdownvalue == "Event")
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          height: 200,
+                          margin: const EdgeInsets.only(left: 20.0, right: 20.0),
+                          child: SfBarcodeGenerator(
+                            value: "${loginEmail.split("@")[0]}-eventCheckIn",
+                            showValue: true,
+                            textSpacing: 15,
+                          ),
+                        ),
+                      ],
+                    ),
                 ],
               ),
             ),
@@ -205,6 +220,21 @@ class _MyHomePageState extends State<MyHomePage> {
                           margin: const EdgeInsets.only(left: 20.0, right: 20.0),
                           child: SfBarcodeGenerator(
                             value: "${loginEmail.split("@")[0]}-offCampusCheckOut",
+                            showValue: true,
+                            textSpacing: 15,
+                          ),
+                        ),
+                      ],
+                    ),
+                  if (dropdownvalue == "Event")
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          height: 200,
+                          margin: const EdgeInsets.only(left: 20.0, right: 20.0),
+                          child: SfBarcodeGenerator(
+                            value: "${loginEmail.split("@")[0]}-eventCheckOut",
                             showValue: true,
                             textSpacing: 15,
                           ),
