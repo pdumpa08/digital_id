@@ -54,7 +54,7 @@
     ],
     "target_info": [
       {
-        "min_deployment": "10.11",
+        "min_deployment": "10.15",
         "target": "x86_64-macos"
       }
     ]

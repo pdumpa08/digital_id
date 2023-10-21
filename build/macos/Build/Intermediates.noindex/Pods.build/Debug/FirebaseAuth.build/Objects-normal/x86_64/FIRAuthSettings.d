@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseAuth.build/module.modulemap \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuthSettings.m \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthSettings.h
+  /Users/dev/Documents/GitHub/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseAuth.build/module.modulemap \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Auth/FIRAuthSettings.m \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthSettings.h

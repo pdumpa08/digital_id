@@ -1,53 +1,53 @@
 dependencies: \
-  /Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/firebase_auth.build/module.modulemap \
-  /Users/praneet/.pub-cache/hosted/pub.dev/firebase_auth-4.10.1/macos/Classes/PigeonParser.m \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/Target\ Support\ Files/firebase_auth/firebase_auth-prefix.pch \
-  /Users/praneet/.pub-cache/hosted/pub.dev/firebase_auth-4.10.1/macos/Classes/Private/PigeonParser.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/Headers/Public/Firebase/Firebase.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCore.build/module.modulemap \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FirebaseAuth.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseAuth.build/module.modulemap \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/Target\ Support\ Files/FirebaseAuth/FirebaseAuth-umbrella.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRActionCodeSettings.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAdditionalUserInfo.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuth.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthAPNSTokenType.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthErrors.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthCredential.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthDataResult.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthSettings.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthTokenResult.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthUIDelegate.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIREmailAuthProvider.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRFacebookAuthProvider.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRFederatedAuthProvider.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRGameCenterAuthProvider.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRGitHubAuthProvider.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRGoogleAuthProvider.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactor.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorAssertion.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorInfo.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorSession.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorResolver.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIROAuthCredential.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIROAuthProvider.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRTwitterAuthProvider.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRUser.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRUserInfo.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRUserMetadata.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRPhoneAuthCredential.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRPhoneAuthProvider.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRPhoneMultiFactorAssertion.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRPhoneMultiFactorGenerator.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRPhoneMultiFactorInfo.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRTOTPMultiFactorAssertion.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRTOTPMultiFactorGenerator.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRTOTPSecret.h \
-  /Users/praneet/.pub-cache/hosted/pub.dev/firebase_auth-4.10.1/macos/Classes/Public/firebase_auth_messages.g.h
+  /Users/dev/Documents/GitHub/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/firebase_auth.build/module.modulemap \
+  /Users/dev/.pub-cache/hosted/pub.dev/firebase_auth-4.10.1/macos/Classes/PigeonParser.m \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/Target\ Support\ Files/firebase_auth/firebase_auth-prefix.pch \
+  /Users/dev/.pub-cache/hosted/pub.dev/firebase_auth-4.10.1/macos/Classes/Private/PigeonParser.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/Headers/Public/Firebase/Firebase.h \
+  /Users/dev/Documents/GitHub/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCore.build/module.modulemap \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FirebaseAuth.h \
+  /Users/dev/Documents/GitHub/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseAuth.build/module.modulemap \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/Target\ Support\ Files/FirebaseAuth/FirebaseAuth-umbrella.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRActionCodeSettings.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAdditionalUserInfo.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuth.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthAPNSTokenType.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthErrors.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthCredential.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthDataResult.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthSettings.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthTokenResult.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRAuthUIDelegate.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIREmailAuthProvider.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRFacebookAuthProvider.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRFederatedAuthProvider.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRGameCenterAuthProvider.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRGitHubAuthProvider.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRGoogleAuthProvider.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactor.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorAssertion.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorInfo.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorSession.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRMultiFactorResolver.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIROAuthCredential.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIROAuthProvider.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRTwitterAuthProvider.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRUser.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRUserInfo.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRUserMetadata.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRPhoneAuthCredential.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRPhoneAuthProvider.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRPhoneMultiFactorAssertion.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRPhoneMultiFactorGenerator.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRPhoneMultiFactorInfo.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRTOTPMultiFactorAssertion.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRTOTPMultiFactorGenerator.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRTOTPSecret.h \
+  /Users/dev/.pub-cache/hosted/pub.dev/firebase_auth-4.10.1/macos/Classes/Public/firebase_auth_messages.g.h

@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseAuth.build/module.modulemap \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Storage/FIRAuthUserDefaults.m \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Storage/FIRAuthUserDefaults.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Storage/FIRAuthKeychainServices.h
+  /Users/dev/Documents/GitHub/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseAuth.build/module.modulemap \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Storage/FIRAuthUserDefaults.m \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Storage/FIRAuthUserDefaults.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/FirebaseAuth/FirebaseAuth/Sources/Storage/FIRAuthKeychainServices.h

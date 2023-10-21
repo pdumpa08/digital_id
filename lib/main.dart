@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const LoginPage(),
+      home: MyHomePage(title: "Digital ID"),
     );
   }
 }
@@ -65,6 +65,13 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+  String loginEmail = "409193@students.cnusd.k12.ca.us";
+  String dropdownvalue = 'Off Campus';
+  var items = [
+    'Off Campus',
+    'Event',
+  ];
+
 
   void _incrementCounter() {
     setState(() {
@@ -85,27 +92,129 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
-    return Scaffold(
-      appBar: AppBar(
-        // TRY THIS: Try changing the color here to a specific color (to
-        // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
-        // change color while the other colors stay the same.
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text('Digital ID'),
-      ),
-      body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Container(
-          height: 200,
-          margin: const EdgeInsets.only(left: 20.0, right: 20.0),
-          child: SfBarcodeGenerator(
-            value: '409193-offCampusCheckIn',
-            showValue: true,
-            textSpacing: 15,
+    return DefaultTabController(
+      length: 2,
+      child: Scaffold(
+        appBar: AppBar(
+          // TRY THIS: Try changing the color here to a specific color (to
+          // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
+          // change color while the other colors stay the same.
+          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          // Here we take the value from the MyHomePage object that was created by
+          // the App.build method, and use it to set our appbar title.
+          title: Text('Digital ID'),
+          bottom: TabBar(
+            tabs: [
+              Tab(text: "Check In"),
+              Tab(text: "Check Out"),
+            ],
           ),
+        ),
+        body: TabBarView(
+          children: [
+            Center(
+              // Center is a layout widget. It takes a single child and positions it
+              // in the middle of the parent.
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      DropdownButton(
+                        // Initial Value
+                        value: dropdownvalue,
+          
+                        // Down Arrow Icon
+                        icon: const Icon(Icons.keyboard_arrow_down),
+          
+                        // Array list of items
+                        items: items.map((String items) {
+                          return DropdownMenuItem(
+                            value: items,
+                            child: Text(items),
+                          );
+                        }).toList(),
+                        // After selecting the desired option,it will
+                        // change button value to selected value
+                        onChanged: (String? newValue) {
+                          setState(() {
+                            dropdownvalue = newValue!;
+                          });
+                        },
+                      ),
+                    ]
+                  ),
+                  if (dropdownvalue == "Off Campus")
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          height: 200,
+                          margin: const EdgeInsets.only(left: 20.0, right: 20.0),
+                          child: SfBarcodeGenerator(
+                            value: "${loginEmail.split("@")[0]}-offCampusCheckIn",
+                            showValue: true,
+                            textSpacing: 15,
+                          ),
+                        ),
+                      ],
+                    ),
+                ],
+              ),
+            ),
+            Center(
+              // Center is a layout widget. It takes a single child and positions it
+              // in the middle of the parent.
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      DropdownButton(
+                        // Initial Value
+                        value: dropdownvalue,
+          
+                        // Down Arrow Icon
+                        icon: const Icon(Icons.keyboard_arrow_down),
+          
+                        // Array list of items
+                        items: items.map((String items) {
+                          return DropdownMenuItem(
+                            value: items,
+                            child: Text(items),
+                          );
+                        }).toList(),
+                        // After selecting the desired option,it will
+                        // change button value to selected value
+                        onChanged: (String? newValue) {
+                          setState(() {
+                            dropdownvalue = newValue!;
+                          });
+                        },
+                      ),
+                    ]
+                  ),
+                  if (dropdownvalue == "Off Campus")
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          height: 200,
+                          margin: const EdgeInsets.only(left: 20.0, right: 20.0),
+                          child: SfBarcodeGenerator(
+                            value: "${loginEmail.split("@")[0]}-offCampusCheckOut",
+                            showValue: true,
+                            textSpacing: 15,
+                          ),
+                        ),
+                      ],
+                    ),
+                ],
+              ),
+            ),
+          ],
         ),
       ),
     );

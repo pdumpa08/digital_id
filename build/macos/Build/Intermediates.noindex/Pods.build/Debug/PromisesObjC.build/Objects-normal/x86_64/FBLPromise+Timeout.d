@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/praneet/Desktop/digital_id_app/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/PromisesObjC.build/module.modulemap \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/FBLPromise+Timeout.m \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Timeout.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromiseError.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromisePrivate.h \
-  /Users/praneet/Desktop/digital_id_app/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Testing.h
+  /Users/dev/Documents/GitHub/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/PromisesObjC.build/module.modulemap \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/FBLPromise+Timeout.m \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Timeout.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromiseError.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromisePrivate.h \
+  /Users/dev/Documents/GitHub/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Testing.h
