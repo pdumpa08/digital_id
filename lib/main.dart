@@ -1,15 +1,17 @@
+import 'package:digital_id/auth_page.dart';
 import 'package:digital_id/firebase_options.dart';
 import 'package:digital_id/login_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_barcodes/barcodes.dart';
+import 'firebase_options.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-
   runApp(const MyApp());
 }
 
@@ -40,7 +42,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: MyHomePage(title: "Digital ID"),
+      home: AuthPage(),
     );
   }
 }
@@ -65,13 +67,16 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-  String loginEmail = "409193@students.cnusd.k12.ca.us";
+  final user = FirebaseAuth.instance.currentUser!;
   String dropdownvalue = 'Off Campus';
   var items = [
     'Off Campus',
     'Event',
   ];
 
+  void signUserOut() {
+    FirebaseAuth.instance.signOut();
+  }
 
   void _incrementCounter() {
     setState(() {
@@ -103,6 +108,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // Here we take the value from the MyHomePage object that was created by
           // the App.build method, and use it to set our appbar title.
           title: Text('Digital ID'),
+          actions: [
+            IconButton(onPressed: signUserOut, icon: Icon(Icons.logout))
+          ],
           bottom: TabBar(
             tabs: [
               Tab(text: "Check In"),
@@ -118,42 +126,41 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      DropdownButton(
-                        // Initial Value
-                        value: dropdownvalue,
-          
-                        // Down Arrow Icon
-                        icon: const Icon(Icons.keyboard_arrow_down),
-          
-                        // Array list of items
-                        items: items.map((String items) {
-                          return DropdownMenuItem(
-                            value: items,
-                            child: Text(items),
-                          );
-                        }).toList(),
-                        // After selecting the desired option,it will
-                        // change button value to selected value
-                        onChanged: (String? newValue) {
-                          setState(() {
-                            dropdownvalue = newValue!;
-                          });
-                        },
-                      ),
-                    ]
-                  ),
+                  Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                    DropdownButton(
+                      // Initial Value
+                      value: dropdownvalue,
+
+                      // Down Arrow Icon
+                      icon: const Icon(Icons.keyboard_arrow_down),
+
+                      // Array list of items
+                      items: items.map((String items) {
+                        return DropdownMenuItem(
+                          value: items,
+                          child: Text(items),
+                        );
+                      }).toList(),
+                      // After selecting the desired option,it will
+                      // change button value to selected value
+                      onChanged: (String? newValue) {
+                        setState(() {
+                          dropdownvalue = newValue!;
+                        });
+                      },
+                    ),
+                  ]),
                   if (dropdownvalue == "Off Campus")
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
                           height: 200,
-                          margin: const EdgeInsets.only(left: 20.0, right: 20.0),
+                          margin:
+                              const EdgeInsets.only(left: 20.0, right: 20.0),
                           child: SfBarcodeGenerator(
-                            value: "${loginEmail.split("@")[0]}-offCampusCheckIn",
+                            value:
+                                "${user.email!.split("@")[0]}-offCampusCheckIn",
                             showValue: true,
                             textSpacing: 15,
                           ),
@@ -166,9 +173,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Container(
                           height: 200,
-                          margin: const EdgeInsets.only(left: 20.0, right: 20.0),
+                          margin:
+                              const EdgeInsets.only(left: 20.0, right: 20.0),
                           child: SfBarcodeGenerator(
-                            value: "${loginEmail.split("@")[0]}-eventCheckIn",
+                            value: "${user.email!.split("@")[0]}-eventCheckIn",
                             showValue: true,
                             textSpacing: 15,
                           ),
@@ -184,42 +192,41 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      DropdownButton(
-                        // Initial Value
-                        value: dropdownvalue,
-          
-                        // Down Arrow Icon
-                        icon: const Icon(Icons.keyboard_arrow_down),
-          
-                        // Array list of items
-                        items: items.map((String items) {
-                          return DropdownMenuItem(
-                            value: items,
-                            child: Text(items),
-                          );
-                        }).toList(),
-                        // After selecting the desired option,it will
-                        // change button value to selected value
-                        onChanged: (String? newValue) {
-                          setState(() {
-                            dropdownvalue = newValue!;
-                          });
-                        },
-                      ),
-                    ]
-                  ),
+                  Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                    DropdownButton(
+                      // Initial Value
+                      value: dropdownvalue,
+
+                      // Down Arrow Icon
+                      icon: const Icon(Icons.keyboard_arrow_down),
+
+                      // Array list of items
+                      items: items.map((String items) {
+                        return DropdownMenuItem(
+                          value: items,
+                          child: Text(items),
+                        );
+                      }).toList(),
+                      // After selecting the desired option,it will
+                      // change button value to selected value
+                      onChanged: (String? newValue) {
+                        setState(() {
+                          dropdownvalue = newValue!;
+                        });
+                      },
+                    ),
+                  ]),
                   if (dropdownvalue == "Off Campus")
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Container(
                           height: 200,
-                          margin: const EdgeInsets.only(left: 20.0, right: 20.0),
+                          margin:
+                              const EdgeInsets.only(left: 20.0, right: 20.0),
                           child: SfBarcodeGenerator(
-                            value: "${loginEmail.split("@")[0]}-offCampusCheckOut",
+                            value:
+                                "${user.email!.split("@")[0]}-offCampusCheckOut",
                             showValue: true,
                             textSpacing: 15,
                           ),
@@ -232,9 +239,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       children: [
                         Container(
                           height: 200,
-                          margin: const EdgeInsets.only(left: 20.0, right: 20.0),
+                          margin:
+                              const EdgeInsets.only(left: 20.0, right: 20.0),
                           child: SfBarcodeGenerator(
-                            value: "${loginEmail.split("@")[0]}-eventCheckOut",
+                            value: "${user.email!.split("@")[0]}-eventCheckOut",
                             showValue: true,
                             textSpacing: 15,
                           ),

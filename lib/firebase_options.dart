@@ -67,6 +67,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '607339416806',
     projectId: 'digid-14afe',
     storageBucket: 'digid-14afe.appspot.com',
+    iosClientId: '607339416806-6sj32da8r4tcbie1uvou3k2s3btr4o7v.apps.googleusercontent.com',
     iosBundleId: 'com.example.digitalId',
   );
 
@@ -76,6 +77,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '607339416806',
     projectId: 'digid-14afe',
     storageBucket: 'digid-14afe.appspot.com',
+    iosClientId: '607339416806-ij5o55jq496ungj43j2vfs1l9altq67m.apps.googleusercontent.com',
     iosBundleId: 'com.example.digitalId.RunnerTests',
   );
 }
