@@ -1,8 +1,0 @@
-dependencies: \
-  /Users/dev/Documents/GitHub/digital_id/build/macos/Build/Intermediates.noindex/Pods.build/Debug/PromisesObjC.build/module.modulemap \
-  /Users/dev/Documents/GitHub/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/FBLPromise+Then.m \
-  /Users/dev/Documents/GitHub/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Then.h \
-  /Users/dev/Documents/GitHub/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise.h \
-  /Users/dev/Documents/GitHub/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromiseError.h \
-  /Users/dev/Documents/GitHub/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromisePrivate.h \
-  /Users/dev/Documents/GitHub/digital_id/macos/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromise+Testing.h
