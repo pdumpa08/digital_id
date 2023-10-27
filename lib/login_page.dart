@@ -60,7 +60,7 @@ class _LoginPageState extends State<LoginPage> {
       context: context,
       builder: (context) {
         return const AlertDialog(
-          backgroundColor: Colors.deepPurple,
+          backgroundColor: Colors.deepOrange,
           title: Center(
             child: Text(
               'Incorrect Email',
@@ -78,7 +78,7 @@ class _LoginPageState extends State<LoginPage> {
       context: context,
       builder: (context) {
         return const AlertDialog(
-          backgroundColor: Colors.deepPurple,
+          backgroundColor: Colors.deepOrange,
           title: Center(
             child: Text(
               'Incorrect Password',
@@ -93,7 +93,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.blueGrey.shade100,
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
@@ -114,7 +114,7 @@ class _LoginPageState extends State<LoginPage> {
                 Text(
                   'Welcome back you\'ve been missed!',
                   style: TextStyle(
-                    color: Colors.grey[700],
+                    color: Colors.blue.shade900,
                     fontSize: 16,
                   ),
                 ),
@@ -147,7 +147,7 @@ class _LoginPageState extends State<LoginPage> {
                     children: [
                       Text(
                         'Forgot Password?',
-                        style: TextStyle(color: Colors.grey[600]),
+                        style: TextStyle(color: Colors.blue.shade900),
                       ),
                     ],
                   ),
@@ -171,20 +171,20 @@ class _LoginPageState extends State<LoginPage> {
                       Expanded(
                         child: Divider(
                           thickness: 0.5,
-                          color: Colors.grey[400],
+                          color: Colors.blue.shade900,
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 10.0),
                         child: Text(
                           'Or continue with',
-                          style: TextStyle(color: Colors.grey[700]),
+                          style: TextStyle(color: Colors.blue.shade900),
                         ),
                       ),
                       Expanded(
                         child: Divider(
                           thickness: 0.5,
-                          color: Colors.grey[400],
+                          color: Colors.blue.shade900,
                         ),
                       ),
                     ],
@@ -215,16 +215,18 @@ class _LoginPageState extends State<LoginPage> {
                     const SizedBox(width: 4),
                     GestureDetector(
                       onTap: widget.onTap,
-                      child: const Text(
+                      child: Text(
                         'Register now',
                         style: TextStyle(
-                          color: Colors.blue,
+                          color: Colors.blue.shade900,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                     ),
                   ],
-                )
+                ),
+
+                const SizedBox(height: 50),
               ],
             ),
           ),

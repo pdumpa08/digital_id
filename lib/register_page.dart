@@ -64,7 +64,7 @@ class _RegisterPageState extends State<RegisterPage> {
       context: context,
       builder: (context) {
         return const AlertDialog(
-          backgroundColor: Colors.deepPurple,
+          backgroundColor: Colors.deepOrange,
           title: Center(
             child: Text(
               'Incorrect Email',
@@ -82,7 +82,7 @@ class _RegisterPageState extends State<RegisterPage> {
       context: context,
       builder: (context) {
         return const AlertDialog(
-          backgroundColor: Colors.deepPurple,
+          backgroundColor: Colors.deepOrange,
           title: Center(
             child: Text(
               'Incorrect Password',
@@ -97,7 +97,7 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.blueGrey.shade100,
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
@@ -109,7 +109,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 // logo
                 const Icon(
                   Icons.lock,
-                  size: 50,
+                  size: 100,
                 ),
 
                 const SizedBox(height: 50),
@@ -118,7 +118,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 Text(
                   'Let\'s Login!',
                   style: TextStyle(
-                    color: Colors.grey[700],
+                    color: Colors.blue.shade900,
                     fontSize: 16,
                   ),
                 ),
@@ -170,20 +170,20 @@ class _RegisterPageState extends State<RegisterPage> {
                       Expanded(
                         child: Divider(
                           thickness: 0.5,
-                          color: Colors.grey[400],
+                          color: Colors.blue.shade900,
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 10.0),
                         child: Text(
                           'Or continue with',
-                          style: TextStyle(color: Colors.grey[700]),
+                          style: TextStyle(color: Colors.blue.shade900),
                         ),
                       ),
                       Expanded(
                         child: Divider(
                           thickness: 0.5,
-                          color: Colors.grey[400],
+                          color: Colors.blue.shade900,
                         ),
                       ),
                     ],
@@ -197,7 +197,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: const [
                     // google button
-                    SquareTile(imagePath: 'google.png'),
+                    SquareTile(imagePath: 'lib/images/google.png'),
                   ],
                 ),
 
@@ -214,16 +214,18 @@ class _RegisterPageState extends State<RegisterPage> {
                     const SizedBox(width: 4),
                     GestureDetector(
                       onTap: widget.onTap,
-                      child: const Text(
+                      child: Text(
                         'Login now',
                         style: TextStyle(
-                          color: Colors.blue,
+                          color: Colors.blue.shade900,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                     ),
                   ],
-                )
+                ),
+
+                const SizedBox(height: 50),
               ],
             ),
           ),
