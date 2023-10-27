@@ -115,7 +115,7 @@ class _LoginPageState extends State<LoginPage> {
                   'Welcome back you\'ve been missed!',
                   style: TextStyle(
                     color: Colors.blue.shade900,
-                    fontSize: 16,
+                    fontSize: 17,
                   ),
                 ),
 
@@ -147,7 +147,10 @@ class _LoginPageState extends State<LoginPage> {
                     children: [
                       Text(
                         'Forgot Password?',
-                        style: TextStyle(color: Colors.blue.shade900),
+                        style: TextStyle(
+                          color: Colors.blue.shade900,
+                          fontSize: 17,
+                        ),
                       ),
                     ],
                   ),
@@ -178,7 +181,10 @@ class _LoginPageState extends State<LoginPage> {
                         padding: const EdgeInsets.symmetric(horizontal: 10.0),
                         child: Text(
                           'Or continue with',
-                          style: TextStyle(color: Colors.blue.shade900),
+                          style: TextStyle(
+                            color: Colors.blue.shade900,
+                            fontSize: 17,
+                          ),
                         ),
                       ),
                       Expanded(
@@ -210,7 +216,10 @@ class _LoginPageState extends State<LoginPage> {
                   children: [
                     Text(
                       'Not a member?',
-                      style: TextStyle(color: Colors.grey[700]),
+                      style: TextStyle(
+                        color: Colors.grey[700],
+                        fontSize: 17,
+                      ),
                     ),
                     const SizedBox(width: 4),
                     GestureDetector(
@@ -220,6 +229,7 @@ class _LoginPageState extends State<LoginPage> {
                         style: TextStyle(
                           color: Colors.blue.shade900,
                           fontWeight: FontWeight.bold,
+                          fontSize: 17,
                         ),
                       ),
                     ),

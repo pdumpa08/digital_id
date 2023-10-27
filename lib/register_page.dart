@@ -116,10 +116,10 @@ class _RegisterPageState extends State<RegisterPage> {
 
                 // welcome back, you've been missed!
                 Text(
-                  'Let\'s Login!',
+                  'Let\'s Sign Up!',
                   style: TextStyle(
                     color: Colors.blue.shade900,
-                    fontSize: 16,
+                    fontSize: 17,
                   ),
                 ),
 
@@ -177,7 +177,10 @@ class _RegisterPageState extends State<RegisterPage> {
                         padding: const EdgeInsets.symmetric(horizontal: 10.0),
                         child: Text(
                           'Or continue with',
-                          style: TextStyle(color: Colors.blue.shade900),
+                          style: TextStyle(
+                            color: Colors.blue.shade900,
+                            fontSize: 17,
+                          ),
                         ),
                       ),
                       Expanded(
@@ -209,7 +212,10 @@ class _RegisterPageState extends State<RegisterPage> {
                   children: [
                     Text(
                       'Already have an account?',
-                      style: TextStyle(color: Colors.grey[700]),
+                      style: TextStyle(
+                        color: Colors.grey[700],
+                        fontSize: 17,
+                      ),
                     ),
                     const SizedBox(width: 4),
                     GestureDetector(
@@ -218,6 +224,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         'Login now',
                         style: TextStyle(
                           color: Colors.blue.shade900,
+                          fontSize: 17,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
