@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_barcodes/barcodes.dart';
 import 'firebase_options.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:intl/intl.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -165,6 +166,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             textSpacing: 15,
                           ),
                         ),
+                        Text(DateFormat('yyyy-MM-dd – hh:mm a')
+                            .format(DateTime.now())),
                       ],
                     ),
                   if (dropdownvalue == "Event")
@@ -181,6 +184,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             textSpacing: 15,
                           ),
                         ),
+                        Text(DateFormat('yyyy-MM-dd – hh:mm a')
+                            .format(DateTime.now())),
                       ],
                     ),
                 ],
@@ -231,6 +236,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             textSpacing: 15,
                           ),
                         ),
+                        Text(DateFormat('yyyy-MM-dd – hh:mm a')
+                            .format(DateTime.now())),
                       ],
                     ),
                   if (dropdownvalue == "Event")
@@ -247,6 +254,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             textSpacing: 15,
                           ),
                         ),
+                        Text(DateFormat('yyyy-MM-dd – hh:mm a')
+                            .format(DateTime.now())),
                       ],
                     ),
                 ],

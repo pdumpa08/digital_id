@@ -42,6 +42,7 @@ dependencies:
   firebase_auth: ^4.12.0
   provider: ^6.0.5
   syncfusion_flutter_barcodes: ^23.1.41
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:
