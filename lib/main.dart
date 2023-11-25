@@ -127,6 +127,13 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(DateFormat('yyyy-MM-dd – hh:mm a')
+                          .format(DateTime.now())),
+                    ],
+                  ),
                   Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                     DropdownButton(
                       // Initial Value
@@ -166,8 +173,6 @@ class _MyHomePageState extends State<MyHomePage> {
                             textSpacing: 15,
                           ),
                         ),
-                        Text(DateFormat('yyyy-MM-dd – hh:mm a')
-                            .format(DateTime.now())),
                       ],
                     ),
                   if (dropdownvalue == "Event")
@@ -184,8 +189,6 @@ class _MyHomePageState extends State<MyHomePage> {
                             textSpacing: 15,
                           ),
                         ),
-                        Text(DateFormat('yyyy-MM-dd – hh:mm a')
-                            .format(DateTime.now())),
                       ],
                     ),
                 ],
@@ -197,6 +200,13 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(DateFormat('yyyy-MM-dd – hh:mm a')
+                          .format(DateTime.now())),
+                    ],
+                  ),
                   Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                     DropdownButton(
                       // Initial Value
@@ -236,8 +246,6 @@ class _MyHomePageState extends State<MyHomePage> {
                             textSpacing: 15,
                           ),
                         ),
-                        Text(DateFormat('yyyy-MM-dd – hh:mm a')
-                            .format(DateTime.now())),
                       ],
                     ),
                   if (dropdownvalue == "Event")
@@ -254,8 +262,6 @@ class _MyHomePageState extends State<MyHomePage> {
                             textSpacing: 15,
                           ),
                         ),
-                        Text(DateFormat('yyyy-MM-dd – hh:mm a')
-                            .format(DateTime.now())),
                       ],
                     ),
                 ],
